@@ -1,0 +1,24 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "redis": "^5.0.1"
+  },
+  "description": "The code uses the Express web server package to create a simple hit tracking application. Each time you visit the app, it logs your hit in Redis, then displays the total number of page loads.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahin556/nodejs-redis-hit-count.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahin556/nodejs-redis-hit-count/issues"
+  },
+  "homepage": "https://github.com/Mahin556/nodejs-redis-hit-count#readme"
+}
